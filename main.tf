@@ -137,8 +137,7 @@ resource "azurerm_virtual_machine" "catapp" {
 
   tags = {
 
-    department = devops 
-    resource_group_name = uwu
+    #department = devops
     billable  = true
 
   }
